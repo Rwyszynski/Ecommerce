@@ -7,6 +7,5 @@ import java.util.Optional;
 
 public interface OrderRepository extends JpaRepository<Order, Long> {
 
-    Optional<Order> findTopByParcelNumberOrderByCreatedAtDesc(String parcelNumber);
-
+    Optional<Order> findTopByParcelNumberOrderByIdDesc(String parcelNumber);
 }
