@@ -17,7 +17,7 @@ public class OrderEventConsumer {
     @KafkaListener(
             topics = "${app.kafka.topic.order-events}",
             groupId = "${spring.kafka.consumer.group-id}",
-            containerFactory = "kafkaListenerContainerFactory"
+            concurrency = "2"
     )
     public void consume(OrderEvent event) {
         log.info("Consumed order event for parcelNumber={}", event.parcelNumber());
