@@ -1,10 +1,10 @@
-POST http://localhost:8080/v1/orders/
+POST https://ecommerce1233211.onrender.com/v1/orders/
 Content-Type: application/json
 
 {
-  "parcelNumber": "PL999888777",
-  "emailReceiver": "test@example.com",
+  "parcelNumber": "PL999000111",
+  "emailReceiver": "demo@example.com",
   "receiverCountryCode": "PL",
-  "senderCountryCode": "DE",
-  "statusCode": 55
+  "senderCountryCode": "FR",
+  "statusCode": 10
 }

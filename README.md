@@ -6,6 +6,8 @@ Zaprojektowany tak, aby pozostać responsywny pod dużym obciążeniem **bez rat
 
 ---
 
+https://ecommerce1233211.onrender.com/
+
 ## Architektura
 
 ```mermaid
@@ -175,7 +177,7 @@ https://www.youtube.com/watch?v=mPm_OD_iwEI
 
 Aplikacja jest wdrożona na:
 
-- **Aplikacja**: [Render](https://render.com) — **TODO: adres URL**
+- **Aplikacja**: [Render](https://ecommerce1233211.onrender.com/https://ecommerce1233211.onrender.com/) — **TODO: adres URL**
 - **Baza danych**: Aiven for PostgreSQL (darmowy tier)
 - **Kafka**: Aiven for Apache Kafka (darmowy tier)
 
