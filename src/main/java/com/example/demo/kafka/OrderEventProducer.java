@@ -1,5 +1,6 @@
 package com.example.demo.kafka;
 
+import com.example.demo.event.OrderEvent;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.core.KafkaTemplate;

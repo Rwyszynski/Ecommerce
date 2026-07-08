@@ -2,7 +2,7 @@ package com.example.demo.service;
 
 import com.example.demo.entity.Order;
 import com.example.demo.entity.OrderRequestDto;
-import com.example.demo.kafka.OrderEvent;
+import com.example.demo.event.OrderEvent;
 import com.example.demo.kafka.OrderEventProducer;
 import com.example.demo.repository.OrderRepository;
 import lombok.RequiredArgsConstructor;

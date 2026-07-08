@@ -1,4 +1,4 @@
-package com.example.demo.kafka;
+package com.example.demo.event;
 
 import java.io.Serializable;
 

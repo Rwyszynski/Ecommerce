@@ -2,9 +2,9 @@ POST http://localhost:8080/v1/orders/
 Content-Type: application/json
 
 {
-  "parcelNumber": "PL123456789",
-  "emailReceiver": "test@example.com",
+  "parcelNumber": "FAIL-DOCKER-001",
+  "emailReceiver": "fail@example.com",
   "receiverCountryCode": "PL",
   "senderCountryCode": "DE",
-  "statusCode": 42
+  "statusCode": 55
 }
